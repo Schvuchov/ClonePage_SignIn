@@ -1,0 +1,112 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+
+}
+
+main{
+    height: 100%;
+    display: flex;
+    
+}
+
+aside{
+    width: 50%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    width: 50%;
+    background-color: darkred;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+button{
+    height: 40px;
+    width: 160px;
+    color: antiquewhite;
+    background-color: darkred;
+    font-weight: bold;
+    border: 1px solid darkred;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: antiquewhite;
+    color: darkred;
+    transition: 0.2s;
+}
+
+/*Lado Branco*/
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div {
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 40px;
+}
+
+#pWhite{
+    margin-top: 20px;
+    margin-bottom: 3px;
+    color: black;
+}
+
+input{
+    background-color: lightgrey;
+    color: gray;
+    border: 1px solid antiquewhite;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    width: 250px;
+}
+
+#linkWhite{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+#linkWhite:hover{
+    text-decoration: underline;
+}
+
+
+/*Lado Vermelho*/
+
+#labelRed{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#pRed{
+    margin-top: 30px;
+}
+
+#btnRed {
+    border: 1px solid antiquewhite;
+    margin-top: 50px;
+}
